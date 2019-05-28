@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 启用IE Edge模式  -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 设置可视区域的宽度和初始缩放大小，避免在移动设备上出现页面展示不正常  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>师兄小题库_Skilldb2.0</title>
+	<link rel="stylesheet" href="./Resources/css/reset.css">
+	<link rel="stylesheet" href="./Resources/css/main.css">
+</head>
+<body>
+	<header>
+		<h1>SKILL DB</h1>
+		<ul>
+			<li><a href="#">Approved</a></li>
+			<li><a href="#">Staff Search</a></li>
+		</ul>
+	</header>
+
+	<div class="containner">
+		<div class="part-nav">
+			<div class="part part-one">1</div>
+			<div class="part-title">
+				Review Skill Form
+				<div class="part active">2</div>
+			</div>
+			<div class="part">3</div>
+		</div>
+		<div class="form">
+			<fieldset>
+				<legend></legend>
+				<div class="title">
+					<h2>Skill From Filter</h2>
+				</div>
+				<div class="content">
+					<div class="item">
+						<label for="item-id">Form #</label>
+						<input type="text" name="" value="ID" id="item-id">
+					</div>
+					<div class="item">
+						<label for="item-by">Request By</label>
+						<select id="item-by">
+							<option value="All">All</option>
+							<option value="All">All</option>
+						</select>
+					</div>
+					<div class="item">
+						<label for="item-data">Submit Data</label>
+						<input type="text" name="" value="" id="item-data">
+					</div>
+					<div class="item">
+						<label for="item-pending">Status</label>
+						<select id="item-pending">
+							<option value="Pending">Pending</option>
+							<option value="Pending">Pending</option>
+						</select>
+					</div>
+				</div>
+				<div class="btn">
+					<button type="button">Filter</button>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="table">
+			<table>
+				<thead>
+					<tr>
+						<th class="one">Form ID</th>
+						<th class="two">Entry By</th>
+						<th class="three">Request By</th>
+						<th class="four">Submit Data</th>
+						<th class="five">Status</th>
+						<th class="six"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- <tr class="special"></tr> -->
+					<tr class="first-row">
+						<td>110</td>
+						<td>Andy Huang</td>
+						<td>Andy Huang</td>
+						<td>2012/05/01</td>
+						<td>Pengding</td>
+						<td><a href="#">View</a></td>
+					</tr>
+					<tr>
+						<td>111</td>
+						<td>Tina Hu/td>
+						<td>Tina Hu</td>
+						<td>2012/05/01</td>
+						<td>Pengding</td>
+						<td><a href="#">View</a></td>
+					</tr>
+					<tr>
+						<td>112</td>
+						<td>Kitty Li</td>
+						<td>Kitty Li</td>
+						<td>2012/05/01</td>
+						<td>Pengding</td>
+						<td><a href="#">View</a></td>
+					</tr>
+					<tr>
+						<td>113</td>
+						<td>Tom Jin</td>
+						<td>Tom Jin</td>
+						<td>2012/05/01</td>
+						<td>Pengding</td>
+						<td><a href="#">View</a></td>
+					</tr>
+					<tr>
+						<td>114</td>
+						<td>Rose Mei</td>
+						<td>Rose Mei</td>
+						<td>2012/05/01</td>
+						<td>Pengding</td>
+						<td><a href="#">View</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy;2012Synnex China Corporation.All Right Reserved.</p>
+	</footer>
+</body>
+</html>
